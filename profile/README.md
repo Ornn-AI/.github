@@ -27,7 +27,6 @@ a tradable market.
 | Repository | Purpose |
 | --- | --- |
 | [Ornn-AI/ornn-benchmarking](https://github.com/Ornn-AI/ornn-benchmarking) | Standardized GPU benchmarking framework for compute, memory, and interconnect testing. |
-| [Ornn-AI/dci](https://github.com/Ornn-AI/dci) | Public data-center and GPU infrastructure intelligence dataset maintained by Ornn. |
 
 Most Ornn production systems are private. Public repositories in this
 organization are curated releases, datasets, and tooling intended for partners,
