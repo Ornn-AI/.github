@@ -1,0 +1,19 @@
+{
+  "name": "ornn-github-profile",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tooling to lint, link-check, and preview the Ornn-AI public GitHub organization profile.",
+  "license": "UNLICENSED",
+  "scripts": {
+    "lint": "markdownlint-cli2 \"**/*.md\" \"!node_modules\"",
+    "check-links": "for f in README.md AGENTS.md profile/README.md; do echo \"# $f\" && markdown-link-check --quiet --config .markdown-link-check.json \"$f\" || exit 1; done",
+    "check": "npm run lint && npm run check-links",
+    "preview": "node scripts/preview.mjs profile/README.md"
+  },
+  "devDependencies": {
+    "github-markdown-css": "^5.9.0",
+    "markdown-link-check": "^3.15.0",
+    "markdownlint-cli2": "^0.23.2",
+    "marked": "^18.0.10"
+  }
+}

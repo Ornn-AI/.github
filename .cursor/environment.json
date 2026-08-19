@@ -1,0 +1,10 @@
+{
+  "name": "Ornn GitHub Profile",
+  "install": "npm install",
+  "terminals": [
+    {
+      "name": "profile-preview",
+      "command": "npm run preview"
+    }
+  ]
+}

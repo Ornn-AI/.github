@@ -1,0 +1,10 @@
+{
+  // Base ruleset for the public GitHub profile Markdown.
+  "default": true,
+  // Prose is hard-wrapped and the repository table rows exceed 80 columns.
+  "MD013": false,
+  // profile/README.md intentionally uses <div>/<a> HTML for centered layout.
+  "MD033": false,
+  // The profile leads with a centered HTML block instead of a top-level heading.
+  "MD041": false
+}

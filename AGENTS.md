@@ -10,3 +10,6 @@
   only an automatic merge.
 - Keep documentation current with each change, including this file when workflow
   expectations change.
+- Run `npm run check` (Markdown lint + link check) before opening a pull request,
+  and use `npm run preview` to review how the profile renders. See
+  [README.md](README.md) for the local development workflow.
