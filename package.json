@@ -13,7 +13,7 @@
   "devDependencies": {
     "github-markdown-css": "^5.9.0",
     "markdown-link-check": "^3.15.0",
-    "markdownlint-cli2": "^0.23.2",
+    "markdownlint-cli2": "^0.23.3",
     "marked": "^18.0.10"
   }
 }
